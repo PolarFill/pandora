@@ -1,0 +1,14 @@
+[package]
+name = "maid-plus"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+neofiglet = "0.1.1"         #Mostrar titulo
+shell-words = "1.1.0"       #Parser de argumentos escritos para serem usandos na criação do processo
+which = "4.2.5"             #Checa o diretório de um input (usado como ultimo recurso)
+rust-ini = "0.18"           #Parser .ini
+rustyline = "9.1.0"         #pega input só que melhor :D (e também tem histórico)
+is_executable = "1.0.1"     #checa se um arquivo é executavel ou não (mais usado pra quando o usuario inserir um diretório)
